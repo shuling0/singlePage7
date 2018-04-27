@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.container{text-align:center;height:100%;}
+@font-face{src:url(../fonts/raleway-regular.ttf);font-family:"raleway-regular";}
+a{color:black;}
+a:active,a:visited,a:hover{text-decoration:none;}
+/*------------------公共样式-*/
+
+
+header{width:100%;height:160px;}
+.header_logo{background:url(../images/logo.png)no-repeat left center;width:136px;height:39px;margin-top:60px;float:left;display:block;}
+header ul{float:right;height:39px;margin-top:60px;}
+header ul li{float:left;margin-left:30px;font-family:"raleway-regular";font-weight:700;line-height:39px;}
+header ul li a:hover{color:orange;}
+
+/*---------------header结束------------------*/
+
+.banner{width:100%;height:600px;background:url(../images/hero.jpg)no-repeat left center;background-size:100% auto;background-position:0 0;padding-top:1px;text-align:center;}
+.banner a{background:url(../images/play_btn.png)no-repeat left center;width:75px;height:75px;margin:0 auto;margin-top:240px;display:block;}
+.banner p{color:white;font:16px "微软雅黑";margin-top:30px;}
+
+/*------------------banner结束-----------------*/
+
+.list{width:100%;height:400px;background-color:#FAFAFA;padding:100px 0;}
+.list ul{width:1300px;}
+.list ul li{width:300px;float:left;margin-right:90px;}
+.list ul li .p_head{font:700 18px "raleway-regular";letter-spacing:1px;}
+.list ul li .p_paragraph{font-family:"微软雅黑";color:#5f5f5f;line-height:30px;margin-top:40px;letter-spacing:.5px;}
+
+/*------------------list 结束-----------*/
+
+.our_work{height:1550px;width:100%;padding:100px 0;overflow:hidden;}
+.our_work h2{font:700 20px "raleway-regular";letter-spacing:1px;}
+.our_work .box{width:100%;margin-top:100px;height:1200px;position:relative;margin-bottom:100px;}
+.our_work .one{background:url(../images/project1.jpg)no-repeat left center;width:56%;height:373px;position:absolute;left:0;}
+.our_work .two{padding:100px 100px 80px 80px;width:56%;height:400px;background-color:#FAFAFA;position:absolute;top:252px;right:0;z-index:1;text-align:left;}
+.our_work .three{background:url(../images/project2.jpg)no-repeat left center;width:56%;height:373px;position:absolute;top:530px;left:0;}
+.our_work .four{padding:100px 100px 80px 80px;width:56%;height:400px;background-color:#FAFAFA;position:absolute;top:779px;right:0;z-index:1;text-align:left;}
+.our_work .more{width:210px;height:76px;background:#FB874F;color:white;position:absolute;top:1140px;z-index:2;left:350px;line-height:76px;text-align:center;}
+.our_work .more:hover{background:#EC7236;}
+
+.our_work .two .two_head,.our_work .four .four_head{font:700 20px "微软雅黑";margin-bottom:30px;display:block;color:#616771;}
+.our_work .two p,.our_work .four p{color:#999;line-height:30px;letter-spacing:1px;margin-bottom:30px;}
+.our_work .two .two_more,.our_work .four .four_more{letter-spacing:0.5px;}
+.our_work .two .two_more span,.our_work .four .four_more span{display:inline-block;width:13px;height:9px;background:url(../images/more_icon.png)no-repeat left center;background-position:-0px -0px;margin-left:15px;    transition: all .1s linear;
+    -webkit-transition: all .1s linear;}
+.our_work .two .two_more:hover span,.our_work .four .four_more:hover span{background-position:-0px -10px;}
+/*---------- 结束-----------*/
+
+
+.partner{height:246px;background-color:#FAFAFA;}
+.partner ul{width:1350px;}
+.partner li{float:left;width:132px;height:45px;margin-right:200px;margin-top:100px;}
+.partner .google{background:url(../images/google.png)no-repeat left center;}
+.partner .facebook{background:url(../images/facebook.png)no-repeat left center;}
+.partner .yahoo{background:url(../images/yahoo.png)no-repeat left center;}
+.partner .paypal{background:url(../images/paypal.png)no-repeat left center;}
+
+/*----------------------------*/
+
+footer{background:#414751;height:220px;text-align:center;padding:75px 0;}
+footer p{color:white;letter-spacing:1px;margin-bottom:30px;}
+footer p .copyright{color:#666;}
+footer ul{margin:0 auto;width:145px;}
+footer li{float:left;margin-left:15px;width:21px;height:21px;}
+footer li a{display:block;}
+.facebook_logo{width:21px;height:21px;background:url(../images/fb_icon.png)no-repeat left center;}
+.twitter_logo{width:21px;height:21px;background:url(../images/twitter_icon.png)no-repeat left center;}
+.google_logo{width:21px;height:21px;background:url(../images/google_icon.png)no-repeat left center;}
+.rss_logo{width:21px;height:21px;background:url(../images/rss_icon.png)no-repeat left center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
